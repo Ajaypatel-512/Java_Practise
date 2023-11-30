@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java_Practise.iml" filepath="$PROJECT_DIR$/Java_Practise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatientBilling/PatientBilling.iml" filepath="$PROJECT_DIR$/PatientBilling/PatientBilling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatientClinical/PatientClinical.iml" filepath="$PROJECT_DIR$/PatientClinical/PatientClinical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatientManagement/PatientManagement.iml" filepath="$PROJECT_DIR$/PatientManagement/PatientManagement.iml" />
     </modules>
   </component>
 </project>
