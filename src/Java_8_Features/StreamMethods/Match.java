@@ -1,4 +1,4 @@
-package StreamMethods;
+package Java_8_Features.StreamMethods;
 
 //anyMatch
 //allMatch
