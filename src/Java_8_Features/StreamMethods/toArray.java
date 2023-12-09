@@ -1,4 +1,4 @@
-package StreamMethods;
+package Java_8_Features.StreamMethods;
 
 import java.util.Arrays;
 import java.util.List;

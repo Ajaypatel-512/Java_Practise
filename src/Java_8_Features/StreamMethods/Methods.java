@@ -1,4 +1,4 @@
-package StreamMethods;
+package Java_8_Features.StreamMethods;
 //Intermediate methods
 //Distinct()
 //limit()
