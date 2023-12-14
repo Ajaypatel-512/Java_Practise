@@ -1,8 +1,6 @@
 package Collections_Framework.List;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class LinkedListDemo {
     public static void main(String[] args) {
@@ -50,5 +48,27 @@ public class LinkedListDemo {
         System.out.println("List size : "+list.size());
         System.out.println("List element to get : "+list.get(6));
         System.out.println("Remove element : "+list.remove(1));
+
+
+        List<String> arr1 = new LinkedList<>();
+        arr1.add("20");
+        arr1.add("dbg");
+        arr1.add("wwd");
+        arr1.add("50");
+        arr1.add("rty");
+
+        ListIterator<String> itr = arr1.listIterator();
+        System.out.println("Traverse in forward direction");
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
+
+
+        System.out.println("Traverse in backward direction");
+        while (itr.hasPrevious()){
+            System.out.println(itr.previous());
+        }
+
+
     }
 }

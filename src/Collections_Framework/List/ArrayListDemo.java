@@ -1,6 +1,7 @@
 package Collections_Framework.List;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
@@ -37,6 +38,23 @@ public class ArrayListDemo {
          * By forEachRemaining() method.
          *
          * */
+
+        ArrayList<Integer> arr1 = new ArrayList();
+        arr1.add(20);
+        arr1.add(10);
+        arr1.add(40);
+        arr1.add(50);
+        arr1.add(60);
+//        arr.add(10.45);
+//        arr.add("hello");
+
+        Iterator<Integer> itr = arr1.iterator();
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+            itr.remove();
+        }
+
+//        System.out.println(arr);
 
     }
 }
