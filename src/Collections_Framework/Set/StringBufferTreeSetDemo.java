@@ -1,4 +1,4 @@
-package Collections_Framework.RandomNumber;
+package Collections_Framework.Set;
 
 import java.util.Set;
 import java.util.TreeSet;
