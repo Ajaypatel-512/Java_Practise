@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\GitHub\Java_Practise\src\jdbc_servlets_jsp\Servlets and Jsp\.metadata\.plugins\org.eclipse.jdt.core
+75931715.index
+3862321877.index
+1877785272.index
